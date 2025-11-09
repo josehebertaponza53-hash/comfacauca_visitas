@@ -11,7 +11,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import { LogOut, User, Building2 } from "lucide-react"
+import { LogOut, User } from "lucide-react"
 
 interface NavBarProps {
   usuario?: {
@@ -42,7 +42,6 @@ export function NavBar({ usuario }: NavBarProps) {
       <div className="mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-3">
-            <Building2 className="h-8 w-8 text-primary" />
             <div>
               <h1 className="text-xl font-bold text-foreground">Comfacauca</h1>
               <p className="text-xs text-muted-foreground">Gestor de Visitas</p>
